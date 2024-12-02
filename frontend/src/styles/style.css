@@ -1,0 +1,125 @@
+body {
+    background-color: rgb(215, 250, 229);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2em;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: #1db954; /* Spotify green color */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: white;
+    font-family: 'Ubuntu', 'sans-serif';
+    width: 90%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+}
+
+.songList {
+    width: 40%;
+}
+
+.songItemContainer {
+    max-height: 600px;
+    overflow-y: auto;
+    margin-top: 34px;
+}
+
+.songItem {
+    height: 45px;
+    width: 55%;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+    padding-left: 2px;
+}
+
+.songItem img {
+    width: 43px;
+    margin-right: 13px;
+    border-radius: 34px;
+}
+
+.timestamp {
+    margin: 0 23px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.timestamp i {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.detailsBox {
+    margin-top: 80px;
+    margin-right: 30px;
+    width: 55%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.detailsBox img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.detailsBox .songInfo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -5px;
+}
+
+.detailsBox .icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#myProgressBar {
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+#masterSongName {
+    flex: 1;
+    text-align: left;
+}
+
+#currentDuration, #totalDuration {
+    margin-right: 0px;
+}
+

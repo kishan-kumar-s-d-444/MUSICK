@@ -1,0 +1,136 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    color: #333;
+    background-color: rgb(215, 250, 229);
+    line-height: 1.6;
+}
+
+/* Hero Section */
+.hero-section {
+    /* background-image: url('10.jpg'); Replace with your image */
+    background-size: cover;
+    background-position: center;
+    color: #1db954;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-text h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* About Description Section */
+.about-description {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.about-description h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #1db954; /* Spotify green color */
+}
+
+.about-description p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Team Section */
+.team {
+    max-width: 1000px;
+    margin: 40px auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.team h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #1db954;
+}
+
+.team-members {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.member {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 220px;
+    text-align: center;
+    padding: 20px;
+}
+
+.member img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.member h3 {
+    font-size: 1.3em;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.member p {
+    font-size: 1em;
+    color: #666;
+}
+
+/* Contact Section */
+.contact {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #333;
+    color: white;
+}
+
+.contact h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.contact a {
+    color: #1db954;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1db954;
+    color: white;
+}
